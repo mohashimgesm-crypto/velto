@@ -3,8 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Velto — Ship your idea to the web in days</title>
-<meta name="description" content="Velto is a fast, indie web studio. We design and build modern landing pages, sites, and web apps — briefed today, launched this week. Pay in USDT, work from anywhere.">
+
+<!-- ===================== SEO: Primary meta ===================== -->
+<title>Velto — Modern Landing Pages & Websites, Shipped in Days</title>
+<meta name="description" content="Velto is an indie web studio building fast, modern landing pages and web apps in Next.js — briefed today, shipped in days. Pay in crypto/USDT, worldwide.">
+<meta name="keywords" content="landing page developer, web design, nextjs developer, website development, freelance web developer">
+<meta name="author" content="Velto">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://velto-studio.vercel.app/">
+
+<!-- Google Search Console verification (HTML tag method).
+     Replace REPLACE_WITH_GOOGLE_VERIFICATION_TOKEN with the content value Google gives you. -->
+<meta name="google-site-verification" content="REPLACE_WITH_GOOGLE_VERIFICATION_TOKEN">
+
+<!-- ===================== SEO: Open Graph ===================== -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Velto">
+<meta property="og:url" content="https://velto-studio.vercel.app/">
+<meta property="og:title" content="Velto — Modern Landing Pages & Websites, Shipped in Days">
+<meta property="og:description" content="Indie web studio building fast, modern landing pages and web apps in Next.js — briefed today, shipped in days. Pay in crypto/USDT, worldwide.">
+<meta property="og:image" content="https://velto-studio.vercel.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- ===================== SEO: Twitter Card ===================== -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Velto — Modern Landing Pages & Websites, Shipped in Days">
+<meta name="twitter:description" content="Indie web studio building fast, modern landing pages and web apps in Next.js — briefed today, shipped in days. Pay in crypto/USDT, worldwide.">
+<meta name="twitter:image" content="https://velto-studio.vercel.app/og-image.png">
+
+<!-- ===================== SEO: JSON-LD structured data ===================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Velto",
+  "url": "https://velto-studio.vercel.app/",
+  "image": "https://velto-studio.vercel.app/og-image.png",
+  "description": "Indie web studio building fast, modern landing pages and web apps in Next.js — shipped in days. Pay in crypto/USDT, worldwide.",
+  "email": "mo.hashim.gesm@gmail.com",
+  "priceRange": "$$",
+  "areaServed": "Worldwide",
+  "serviceType": ["Landing Page Design", "Website Development", "Web App Development"],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": { "@type": "Service", "name": "Landing Page Design" }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": { "@type": "Service", "name": "Website Development" }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": { "@type": "Service", "name": "Web App Development" }
+    }
+  ]
+}
+</script>
+<!-- ===================== /SEO ===================== -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
@@ -107,14 +165,14 @@
   .process h2{color:#fff}
   .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin-top:46px}
   .step .s-num{font-family:var(--display);font-weight:700;font-size:46px;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;line-height:1}
-  .step h4{font-family:var(--display);font-weight:600;font-size:19px;margin:14px 0 8px}
+  .step h3{font-family:var(--display);font-weight:600;font-size:19px;margin:14px 0 8px}
   .step p{color:#9aa1b0;font-size:14.5px}
 
   /* ---- why ---- */
   .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
   .why{padding:30px;border:1px solid var(--line);border-radius:18px;background:var(--card)}
   .why .ic{width:42px;height:42px;border-radius:12px;background:var(--grad);display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--display);font-weight:700;font-size:20px}
-  .why h4{font-family:var(--display);font-weight:600;font-size:18px;margin:18px 0 8px}
+  .why h3{font-family:var(--display);font-weight:600;font-size:18px;margin:18px 0 8px}
   .why p{color:var(--ink-soft);font-size:14.5px}
 
   /* ---- pricing ---- */
@@ -222,9 +280,9 @@
       <div class="eyebrow">How it works</div>
       <h2 style="font-family:var(--display);font-weight:700;letter-spacing:-.02em;font-size:clamp(26px,4vw,40px)">Three steps. One week.</h2>
       <div class="steps">
-        <div class="step"><div class="s-num">01</div><h4>Brief</h4><p>Tell us the goal on WhatsApp. We scope it, quote a flat price, and agree a deadline — same day.</p></div>
-        <div class="step"><div class="s-num">02</div><h4>Build</h4><p>We design and develop your draft, sharing a live preview link in 48–72 hours for your feedback.</p></div>
-        <div class="step"><div class="s-num">03</div><h4>Ship</h4><p>We polish, deploy, and hand over. You pay in USDT on delivery — simple, borderless, done.</p></div>
+        <div class="step"><div class="s-num">01</div><h3>Brief</h3><p>Tell us the goal on WhatsApp. We scope it, quote a flat price, and agree a deadline — same day.</p></div>
+        <div class="step"><div class="s-num">02</div><h3>Build</h3><p>We design and develop your draft, sharing a live preview link in 48–72 hours for your feedback.</p></div>
+        <div class="step"><div class="s-num">03</div><h3>Ship</h3><p>We polish, deploy, and hand over. You pay in USDT on delivery — simple, borderless, done.</p></div>
       </div>
     </div>
   </div>
@@ -237,9 +295,9 @@
       <h2>Built for speed, made for anyone.</h2>
     </div>
     <div class="why-grid">
-      <div class="why reveal"><div class="ic">⚡</div><h4>Fast by design</h4><p>AI-accelerated workflows mean a real draft in days. We move at the speed your launch needs.</p></div>
-      <div class="why reveal"><div class="ic">◎</div><h4>No borders</h4><p>We work with clients anywhere and accept USDT &amp; crypto — no bank friction, no payment walls.</p></div>
-      <div class="why reveal"><div class="ic">⌘</div><h4>Modern stack</h4><p>Next.js, performance-first, and clean code. Your site is fast, mobile-ready, and built to last.</p></div>
+      <div class="why reveal"><div class="ic">⚡</div><h3>Fast by design</h3><p>AI-accelerated workflows mean a real draft in days. We move at the speed your launch needs.</p></div>
+      <div class="why reveal"><div class="ic">◎</div><h3>No borders</h3><p>We work with clients anywhere and accept USDT &amp; crypto — no bank friction, no payment walls.</p></div>
+      <div class="why reveal"><div class="ic">⌘</div><h3>Modern stack</h3><p>Next.js, performance-first, and clean code. Your site is fast, mobile-ready, and built to last.</p></div>
     </div>
   </div>
 </section>
